@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research — Rebecca Briffa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="cv.html">CV and publications</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </header>
+    <div class="page">
+      <aside class="sidebar">
+        <div class="photo-wrap">
+          <img class="photo" src="photo.png" alt="Portrait of Rebecca Briffa" />
+        </div>
+        <h1>Rebecca Briffa</h1>
+        <p class="role">
+          Postdoctoral researcher<br />
+          <span>Institute of Space Sciences and Astronomy,<br />University of Malta</span>
+        </p>
+        <p class="email">
+          <a href="mailto:rebecca.briffa.16@um.edu.mt">rebecca.briffa.16@um.edu.mt</a>
+        </p>
+      </aside>
+      <main class="content">
+        <section>
+          <h2>Aim of my work</h2>
+          <p>
+            I connect theory to observations with computation in the middle.
+            Three strands run through everything I do: the physics of gravity
+            and cosmological tensions, the numerical machinery that makes
+            those theories predictive, and the statistical methods that turn
+            data into constraints.
+          </p>
+          <figure class="pipeline">
+            <img
+              src="pipeline.svg"
+              alt="Flow from theory through computation to observations"
+            />
+            <figcaption>
+              From theory to observations, with computational power in the
+              middle.
+            </figcaption>
+          </figure>
+          <div class="aim-grid">
+            <article class="aim-card">
+              <p class="kicker">Tensions and theory</p>
+              <h3>Fundamental physics</h3>
+              <ul>
+                <li>Teleparallel gravity and <em>f(T)</em> models</li>
+                <li>Gravity beyond General Relativity</li>
+                <li>Dark energy and late-time acceleration</li>
+                <li>Hubble tension and related cosmological tensions</li>
+                <li>Alternatives to ΛCDM</li>
+              </ul>
+            </article>
+            <article class="aim-card">
+              <p class="kicker">Numerical pipelines</p>
+              <h3>Computational cosmology</h3>
+              <ul>
+                <li>Boltzmann solvers (CLASS)</li>
+                <li>End-to-end <em>f(T)</em> CMB pipelines</li>
+                <li>Machine learning</li>
+                <li>Genetic algorithms</li>
+                <li>High-performance model exploration</li>
+              </ul>
+            </article>
+            <article class="aim-card">
+              <p class="kicker">From data to constraints</p>
+              <h3>Inference and statistical methods</h3>
+              <ul>
+                <li>Markov chain Monte Carlo (MCMC)</li>
+                <li>Model comparison with AIC and BIC</li>
+                <li>Gaussian processes</li>
+                <li>Likelihood analysis</li>
+                <li>Parameter estimation and priors</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section>
+          <h2>Research topics</h2>
+
+          <article class="topic">
+            <p class="kicker">Tensions and theory</p>
+            <h3>Fundamental physics</h3>
+            <p>
+              I work on gravity beyond General Relativity, especially
+              teleparallel gravity and <em>f(T)</em> models, as a possible
+              description of late-time acceleration. A central question is
+              whether cosmological tensions — above all the Hubble tension —
+              are a hint of new physics. That programme now includes CMB
+              comparisons with Planck, SPT, and ACT as well as late-time
+              probes.
+            </p>
+          </article>
+
+          <article class="topic">
+            <p class="kicker">Numerical pipelines</p>
+            <h3>Computational cosmology</h3>
+            <p>
+              I build the numerical path from a theory to a prediction:
+              modifying CLASS so <em>f(T)</em> can be run as a full Boltzmann
+              solver, and developing genetic-algorithm pipelines, coupled to
+              MCMC, that search a wide space of cosmological models instead of
+              assuming one formula from the start.
+            </p>
+          </article>
+
+          <article class="topic">
+            <p class="kicker">From data to constraints</p>
+            <h3>Inference and statistical methods</h3>
+            <p>
+              I constrain parameters with MCMC, compare models with information
+              criteria such as AIC and BIC, and reconstruct cosmological
+              functions with Gaussian processes. Statistics is how a theory
+              becomes a statement we can test against surveys.
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
